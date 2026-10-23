@@ -1,8 +1,7 @@
 # AD_2026_2
 
-# AD_2026Q4
 
-epositorio de referencia: un notebook ejecutable por clase que deja un resumen `.txt` en `reportes/`.
+Repositorio de referencia: un notebook ejecutable por clase que deja un resumen `.txt` en `reportes/`.
 
 ## Estructura
 

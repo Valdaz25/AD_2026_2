@@ -1,10 +1,11 @@
 """Carga datasets de Hugging Face y, opcionalmente, los guarda en disco."""
 from __future__ import annotations
 
+import importlib
 from pathlib import Path
 from typing import Literal
-from datasets import load_dataset  
-import pandas as pd
+
+import pandas as pd  # pyright: ignore[reportMissingModuleSource]
 
 FileType = Literal["csv", "json", "parquet", "xlsx"]
 
