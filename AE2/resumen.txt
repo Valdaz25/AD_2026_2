@@ -1,0 +1,33 @@
+RESUMEN DE EJECUCIÓN - AE2
+============================================================
+Generado: 2026-10-24 16:46:16
+Clases: ManejadorCSV, ManejadorJSON, GeneradorResumenTXT
+Registros procesados en total (importados): 6032
+
+ARCHIVO CSV
+------------------------------------------------------------
+URL de origen: https://huggingface.co/datasets/fka/prompts.chat/blob/main/prompts.csv
+Clase utilizada: ManejadorCSV
+Métodos utilizados: importar, actualizar_valor, agregar_registro, eliminar_registro, guardar
+Archivo importado: datos_originales/prompts.csv
+Nuevo archivo guardado: datos_modificados/prompts_modificado.csv
+Registros importados: 2627
+Registros en el archivo guardado: 2627
+Modificaciones realizadas:
+  - Actualizado: fila 0, columna 'act': 'Ethereum Developer' -> 'Ethereum Developer (editado)'
+  - Agregado: registro nuevo {'act': 'Registro de prueba', 'prompt': 'Registro agregado desde el notebook.', 'for_devs': 'FALSE', 'type': 'TEXT', 'contributor': 'estudiante'}
+  - Eliminado: fila 1 ['Linux Terminal', 'I want you to act as a linux terminal. I will type commands ...', 'TRUE', 'TEXT', 'f']
+
+ARCHIVO JSON
+------------------------------------------------------------
+URL de origen: https://huggingface.co/datasets/leonorv/slaying/blob/main/slaying.json
+Clase utilizada: ManejadorJSON
+Métodos utilizados: importar, actualizar_valor, agregar_registro, eliminar_registro, guardar
+Archivo importado: datos_originales/slaying.json
+Nuevo archivo guardado: datos_modificados/datos_modificado.json
+Registros importados: 3405
+Registros en el archivo guardado: 3405
+Modificaciones realizadas:
+  - Actualizado: registro 0, campo 'term': 'punks' -> 'VALOR_ACTUALIZADO'
+  - Agregado: registro nuevo {'id': '214515', 'term': 'REGISTRO_NUEVO', 'definition': 'A slang term with multiple meanings depending on context. Or...', 'sentence': 'As anti establishment, punks have always mostly been on the ...', 'communities': "['transgender', 'gay male']", 'metadata': "{'source': 'Reddit', 'subreddit': 'transgender', 'date': '20..."}
+  - Eliminado: registro 1
