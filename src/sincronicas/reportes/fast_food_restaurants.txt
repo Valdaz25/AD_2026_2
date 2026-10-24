@@ -5,9 +5,9 @@ Columnas: 5
 Duplicados: 1
 
 Columnas y tipos:
-- name: str
-- city: str
-- province: str
+- name: object
+- city: object
+- province: object
 - latitude: float64
 - longitude: float64
 
