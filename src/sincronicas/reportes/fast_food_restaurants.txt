@@ -1,32 +1,22 @@
 REPORTE DEL DATAFRAME
 ============================================================
 Filas: 10000
-Columnas: 10
-Duplicados: 0
+Columnas: 5
+Duplicados: 1
 
 Columnas y tipos:
-- address: object
-- city: object
-- country: object
-- keys: object
+- name: str
+- city: str
+- province: str
 - latitude: float64
 - longitude: float64
-- name: object
-- postalCode: object
-- province: object
-- websites: object
 
 Valores nulos por columna:
-- address: 0
+- name: 0
 - city: 0
-- country: 0
-- keys: 0
+- province: 0
 - latitude: 0
 - longitude: 0
-- name: 0
-- postalCode: 0
-- province: 0
-- websites: 465
 
 Estadísticas numéricas:
         latitude  longitude

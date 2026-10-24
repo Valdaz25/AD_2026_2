@@ -58,8 +58,8 @@ class HFDatasetLoader:
 
     def load(self) -> pd.DataFrame:
         """Descarga el dataset, lo guarda si se configuró una salida y retorna el DataFrame."""
+        load_dataset = importlib.import_module("datasets").load_dataset
         
-
         dataset = load_dataset(
             self.dataset_name,
             self.config,
