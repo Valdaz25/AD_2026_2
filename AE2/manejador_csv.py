@@ -3,7 +3,7 @@ import csv
 import sys
 from pathlib import Path
 
-# Algunos CSV tienen campos de texto muy largos; se quita el límite por defecto.
+
 csv.field_size_limit(sys.maxsize)
 
 
