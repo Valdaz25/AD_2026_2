@@ -1,32 +1,30 @@
 REPORTE DEL DATAFRAME
 ============================================================
-Filas: 5000
-Columnas: 6
-Duplicados: 0
+Filas: 10000
+Columnas: 5
+Duplicados: 1
 
 Columnas y tipos:
-- nombre: str
-- ciudad: str
-- provincia: str
-- latitud: float64
-- longitud: float64
-- ubicacion: str
+- name: object
+- city: object
+- province: object
+- latitude: float64
+- longitude: float64
 
 Valores nulos por columna:
-- nombre: 0
-- ciudad: 0
-- provincia: 0
-- latitud: 0
-- longitud: 0
-- ubicacion: 0
+- name: 0
+- city: 0
+- province: 0
+- latitude: 0
+- longitude: 0
 
 Estadísticas numéricas:
-        latitud  longitud
-count  5000.000  5000.000
-mean     41.573   -88.863
-std       2.627    18.320
-min      38.301  -151.235
-25%      39.559   -94.612
-50%      41.117   -85.980
-75%      42.786   -77.638
-max      64.840   123.012
+        latitude  longitude
+count  10000.000  10000.000
+mean      37.552    -91.056
+std        5.050     18.556
+min       -6.244   -159.379
+25%       34.029    -97.413
+50%       38.298    -87.661
+75%       41.117    -81.458
+max       64.840    123.012
